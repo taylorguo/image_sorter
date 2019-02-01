@@ -23,7 +23,7 @@ cv2.Laplacian(img_gray, cv2.CV_64F).var()
 
 ### 1.  项目结构简单
 
-<img src="./asset/workflow.png" width="600"> 
+<img src="./asset/workflow.png" width="400"> 
 
 ### 2.  使用方法
 
