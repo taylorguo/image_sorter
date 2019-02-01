@@ -21,7 +21,7 @@ cv2.Laplacian(img_gray, cv2.CV_64F).var()
 
 ## Image Sorter 项目结构
 
-### 1.  项目结构简单
+### 1.  结构简单
 
 <img src="./asset/workflow.png" width="400"> 
 
