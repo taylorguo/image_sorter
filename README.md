@@ -29,12 +29,23 @@ cv2.Laplacian(img_gray, cv2.CV_64F).var()
 
 
 ```python
-python image_sorter.py sample ftm
+python image_sorter.py
 
+输入一张人脸筛选用的人脸参考图片(路径): sample/00401_0.png
+
+输入颜色直方图筛选的源图片目录: sample
+
+输入要测试的人脸图片目录: ftm
 ```
 
 ```python
 sample - 参考图像文件目录：放入参考图像
 
-ftm - 待处理的图像文件目录：与参考图像对比，如果颜色直方图差异过大 或者 图像方差太小，该图像被放入not_target_face目录中
+ftm - 待处理的图像文件目录：与参考图像对比,颜色直方图差异过大或图像方差小，图像放入not_target_face目录中
+```
+
+```python
+python rename_img.py
+
+输入包含待更名图片的目录: ftm
 ```
